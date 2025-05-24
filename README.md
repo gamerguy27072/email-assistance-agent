@@ -36,7 +36,7 @@ Follow these steps to set up and run the AI Personal Assistant locally.
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/gamerguy27072/email-assistance-agent.git
-    cd your-repo-name
+    cd email-assistance-agent
     ```
 
 2.  **Create and activate a virtual environment with `uv`:**
