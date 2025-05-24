@@ -1,4 +1,4 @@
-# AI Personal Assistant
+# Email Assistance Agent
 
 An intelligent personal assistant leveraging **LangGraph** to automate email processing, summarization, and response drafting with context-aware interactions.
 
@@ -59,9 +59,27 @@ Follow these steps to set up and run the AI Personal Assistant locally.
     # Add other keys as needed, e.g., GOOGLE_API_KEY
     ```
 
-### Running the Project
+---
 
-To start the AI Personal Assistant, execute the main application file:
+## 💡 Usage
 
-```bash
-python main.py # Or whatever your primary entry point script is named
+To run the AI Personal Assistant, you will need to execute the code manually through the Jupyter Notebook:
+
+1.  Ensure your virtual environment is active.
+2.  Navigate to the `Notebooks` directory:
+    ```bash
+    cd Notebooks
+    ```
+3.  Open `Agent.ipynb` in a Jupyter Notebook environment (e.g., by running `jupyter lab` or `jupyter notebook` in the terminal and navigating to the file, or by opening it directly in VS Code).
+4.  Run the cells within `Agent.ipynb` sequentially to interact with the assistant.
+
+---
+
+## 🚧 Work in Progress
+
+This project is currently under active development. The following key objectives are planned:
+
+* **Deployment:** The project is not yet deployed and therefore does not have a public-facing link.
+* **API Endpoints:** Implementation of FastAPI routes to expose the assistant's functionalities as a web API for broader integration and accessibility.
+
+---
